@@ -1,0 +1,4 @@
+api/env
+api/node_modules
+client/node_modules
+client/build

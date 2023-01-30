@@ -1,0 +1,36 @@
+.HomeContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+    font-family: 'Lato';
+    .HomeHeadingContainer{
+        width: 700px;
+        padding-top: 2.5rem;
+        .HeadingStyle{  
+            font-weight: 700;
+            color: white;
+            line-height: 1.1;
+            margin-bottom: 40px;
+            font-size: 48px;
+        }
+        p{
+            color: white;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        .getStartedBtn{
+            font-family: Hack-ZeroSlash, monospace;
+            width: 35rem;
+            font-size: 27px;
+            line-height: 38.5714px;
+            text-align: center;
+            font-weight: 100;
+            border-color: #feac32;
+            border-width: 3px;
+            background-image: linear-gradient(#fecc4c,#ffac33);
+            height: 3.5rem;
+            
+        }
+    }
+}
